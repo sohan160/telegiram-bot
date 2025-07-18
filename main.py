@@ -5,10 +5,13 @@ from telethon import TelegramClient
 from datetime import datetime
 
 # Import modules and configuration
-import config
+import config 
 from save_posts import fetch_and_save_new_posts
 from post_content import check_and_post_from_queue as post_to_telegram
 from post_to_facebook import check_and_post_to_facebook
+from keep_alive import keep_alive  # ✅ এই লাইনে import করবে
+
+keep_alive()
 
 # Initialize the Telegram client
 client = TelegramClient('main_session3', config.API_ID, config.API_HASH)
