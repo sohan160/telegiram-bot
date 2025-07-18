@@ -1,0 +1,7 @@
+pip install telethon
+
+pip install --upgrade --force-reinstall facebook-sdk requests
+
+fb page id : 752773981253119
+
+page token : 'EAAneWOoSPFwBPHdL8H6gmJyo7dVr0HE1snISjTwG4HabcqK5K3BF3eNN1VsI7cmSE9gjjWwPZCmtQ87a3pA40atY2M23fNiWZC4F9BYS9jIIUm1F4eZCcdu15GZCYtwBkQZAZBFxbCq0grQTq7ZCC2KzfAktlaXxsCSlN7mLFg2ZAIegVnKzzFsPXLsYsfzV'
